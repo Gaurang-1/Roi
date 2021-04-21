@@ -1,0 +1,58 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    background: rgb(193,201,48);
+    background: linear-gradient(90deg, rgba(193,201,48,1) 0%, rgba(245,255,0,1) 35%, rgba(88,172,226,1) 100%);
+    font-size: 23px;
+    margin-top: 0px;
+    width:100%;
+    font-family: 'Caveat', cursive;
+}
+
+#start{
+    font-family: 'Caveat', cursive;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    width:100px;
+    font-size:19px;
+    background: rgb(255,158,0);
+    background: linear-gradient(90deg, rgba(255,158,0,1) 0%, rgba(246,181,116,1) 48%, rgba(123,129,227,1) 52%, rgba(4,78,212,1) 100%);
+}
+
+#number_of_objects{
+    border-radius: 20px;
+    height:20px;
+    width:200px;
+    font-size: 18px;
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,149,117,1) 48%, rgba(123,129,227,1) 52%, rgba(4,78,212,1) 100%);
+}
+
+#status{
+    color:white;
+    border-radius:20px;
+    font-size: 20px;
+    width:25%;
+    background: rgb(201,34,192);
+background: linear-gradient(90deg, rgba(201,34,192,1) 0%, rgba(232,117,189,1) 48%, rgba(123,129,227,1) 52%, rgba(4,78,212,1) 100%);
+}
+
+#c{
+    position:fixed;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(44,62,96,1) 100%);
+    color:white;
+    bottom:0px;
+    width:100%;
+    text-align:center;
+}
+
+canvas{
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px grey;
+}
